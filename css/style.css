@@ -1,0 +1,305 @@
+header h1{
+  font-family: 'Slabo 27px', serif;
+  animation-name: aga1;
+  animation-duration: 6s;
+  color: white;
+  margin-top: -5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+header {
+  text-align: center;
+  margin: 10%;
+}
+#image{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+#img-div{
+  justify-content: center;
+}
+#geral{
+  background-color: white;
+  margin: 10%;
+  border-radius: 10px;
+}
+figcaption{
+  color: rgb(55, 27, 16);
+  font-size: 60%;
+}
+figcaption a{
+  color: rgb(55, 27, 16);
+  text-decoration:none;
+}
+.livros{
+  position: relative;
+  display: flex;
+  grid-template-column: 1fr 1fr 1fr;  
+  margin-left: 2%;
+  column-gap: 5px;
+}
+
+main h3{
+  text-align: center;
+}
+#bio{
+  background:white;
+  min-height: 200px;
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+#ariano_1{
+  width: 150px;
+  border-radius: 10px;
+  position:relative;
+  float: left;
+  border: 9px  solid black;
+  filter: brightness(110%);
+  animation-name: ariano1;
+  animation-duration: 15s;
+}
+#texto{
+  position: relative;
+  border-top: 1px transparent;
+  border-bottom: 1px transparent;
+  border-right: 1px transparent;
+  
+}
+#vida{
+  float: left;
+  padding-top: 180px;
+  font-size: 10px;
+  margin-left: -100px;
+}
+
+@keyframes aga1{
+  0%{
+    color: white;
+    background-image: linear-gradient(to right, #E8E8E8, #CFCFCF, #B5B5B5, #9C9C9C, #828282, #696969, #4F4F4F, #363636, #1C1C1C);
+    background-radius: 5px;
+    top: 0px;
+  }
+  70%{
+    color: white;
+    background-image: linear-gradient(to left, #E8E8E8, #CFCFCF, #B5B5B5, #9C9C9C, #828282, #696969, #4F4F4F, #363636, #1C1C1C);
+    background-radius: 5px;
+    top: 0px;
+  }
+  100% {
+    color: white;
+    background: black;
+    background-radius: 5px;
+    top: 0px;
+  }
+}
+
+@keyframes ariano1{
+  0%{
+    opacity: 0.9;
+  }
+  50%{
+    opacity: 0.5;
+  }
+  
+  100%{
+    opacity: 1;
+  }
+}
+
+.auto:hover{
+  filter: 
+}
+#tribute-info{
+  margin-left: 10%;
+  margin-right: 5%;
+  margin-bottom: 10%;
+  color: white;
+  background-color: rgb(255,255,255, 0.1);
+  border-radius: 10px;
+}
+main #ess{
+  text-align: center;
+  background-color: rgb(255,255,255, 0.1);
+  color: white;
+}
+.auto{
+  text-align: center;
+  width: 400px;
+  height: 400px;
+  position: relative;
+}
+.auto p{
+  position: absolute;
+  margin-top: -100px;
+  background-color: white;
+  opacity: 0.9;
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#quote{
+  border: 3px dashed;
+  border-radius: 5px;
+}
+
+.normal{
+  font-size: 30px;
+}
+.mudar{
+  font-size:8px;
+}
+.mouse:hover .mudar{
+  z-index: -1;
+  font-size: 16px;
+}
+.mouse:hover .normal{
+  display: none; 
+  opacity: 1;
+}
+
+
+main{
+  background-color: #53868B;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 5px;
+}
+body{
+  background-color: black;
+}
+
+
+#auto1:hover {
+  width: 140%;
+  filter: saturate(2);
+}
+#auto2:hover{
+  filter: saturate(3);
+  width: 140%;
+}
+#auto3:hover{
+  filter: saturate(3);
+  width: 140%
+}
+p, q{
+  font-family: 'Raleway', sans-serif;
+}
+#fontes{
+  margin-top: 2%;
+  margin-bottom: 20%;
+  border-radius: 5px;
+  background-color: white;
+}
+
+
+#fontes a{
+  text-decoration: none;
+  padding: 5%;
+  font-family: 'Raleway', sans-serif;
+}
+#bio h2{
+  font-family: 'Slabo 27px', serif;
+}
+
+#main h3{
+  font-family: 'Slabo 27px', serif;
+  padding-top: 5%;
+}
+hr{
+  margin-top: 5%;
+  border: 3px solid black ;
+}
+ul li{
+  display: inline;
+  color: white;
+  padding: 11px;
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
+  color: #53868B;
+}
+ul{
+  margin-top: -7%;
+  margin-bottom: -10%;
+}
+ul a{
+  text-decoration:none;
+  color: #53868B;
+}
+footer{
+  position: absolute;
+  color: white;
+  font-family: 'Slabo 27px', serif;
+  margin-top: -10%;
+}
+
+@media screen and (max-width: 600px){
+  #vida{
+    margin-left: 12%;
+    margin-top: -40%;
+    position: relative;
+  }
+  .livros{
+    display: grid;
+    flex-direction: column;
+    grid-row-gap: 40px;
+    position: relative;
+    }
+  #geral{
+    margin: -10% -10% -10% -10%;
+  }
+  #fontes{
+    margin-left: 15%;
+  }
+  footer{
+    margin-left: 15%;
+  }
+  .auto{
+    width: 80%;
+  }
+  .auto p{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  #texto{
+    position: relative;
+    float: left;
+    background-color: white;
+    margin: 5% 5% 5% 5%;
+  }
+  #tribute-info{
+    margin: 5% 0% 10% 0%;
+  }
+  #auto1:hover {
+  width: 90%;
+  filter: saturate(2);
+}
+#auto2:hover{
+  filter: saturate(3);
+  width: 90%;
+}
+#auto3:hover{
+  filter: saturate(3);
+  width: 90%;
+}
+  ul li{
+    padding: 20px;
+    margin-left: -15%;
+    font-size: 15px;
+  }
+  footer img{
+    width: 10% !important;
+  }
+  #main h3{
+  font-family: 'Slabo 27px', serif;
+  padding-top: 5%;
+  padding-left: 1%;
+  font-size: 35px;
+}
+  hr{
+   margin-top: 5%;
+  }
+}

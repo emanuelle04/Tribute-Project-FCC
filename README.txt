@@ -1,0 +1,3 @@
+A Pen created at CodePen.io. You can find this one at https://codepen.io/Emanuelle_Rodrigues/pen/JaxebG.
+
+ Projeto do módulo Básico de HTML E CSS  - FreeCodeCamp, a proposta é criar um site simples em memória de alguém que mudou o mundo de alguma forma. Escolhi Ariano Suassuna um escritor e pensador que representa muito bem o nordeste, e que contribuiu de forma imensurável com a nossa cultura e história.
